@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-TweetieAbstract-MacTweetie/Pods-TweetieAbstract-MacTweetie-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire-macOS/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Reachability-macOS/Reachability.framework
+${BUILT_PRODUCTS_DIR}/Realm-macOS/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift-macOS/RealmSwift.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa-macOS/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxRealm-macOS/RxRealm.framework
+${BUILT_PRODUCTS_DIR}/RxRealmDataSources-macOS/RxRealmDataSources.framework
+${BUILT_PRODUCTS_DIR}/RxSwift-macOS/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/Then-macOS/Then.framework
+${BUILT_PRODUCTS_DIR}/Unbox-macOS/Unbox.framework
