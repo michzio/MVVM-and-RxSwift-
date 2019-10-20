@@ -84,7 +84,7 @@
 		<key>RealmSwift-iOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>29</integer>
+			<integer>27</integer>
 		</dict>
 		<key>RealmSwift-macOS.xcscheme</key>
 		<dict>
@@ -96,7 +96,7 @@
 		<key>RealmSwift-macOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>30</integer>
+			<integer>28</integer>
 		</dict>
 		<key>RxBlocking.xcscheme</key>
 		<dict>

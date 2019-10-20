@@ -10,15 +10,30 @@
 		0B867C11D77F25D023576AA5 /* Pods_TweetieAbstract_MacTweetie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E3D45B67D96F89CDA03F49 /* Pods_TweetieAbstract_MacTweetie.framework */; };
 		6E2AEAAA0F536A9D69D0BF59 /* Pods_TweetieAbstract_Tweetie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7E12B3E37E9DAE99DDD65B /* Pods_TweetieAbstract_Tweetie.framework */; };
 		718DA5AB7D3D1F77132B947F /* Pods_TweetieAbstract_TweetieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D266FB2DFEA85CF98806BD /* Pods_TweetieAbstract_TweetieTests.framework */; };
+		84000279235B7877003050BF /* TweetExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84000278235B7877003050BF /* TweetExtensions.swift */; };
+		8400027B235B7A8A003050BF /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400027A235B7A8A003050BF /* Navigator.swift */; };
+		84000281235B7DB8003050BF /* ListTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84000280235B7DB8003050BF /* ListTimelineViewController.swift */; };
+		84000283235B7DCD003050BF /* ListMembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84000282235B7DCD003050BF /* ListMembersViewController.swift */; };
+		84000285235B8102003050BF /* TweetCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84000284235B8102003050BF /* TweetCellView.swift */; };
+		84000287235C429B003050BF /* MemberCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84000286235C429B003050BF /* MemberCellView.swift */; };
+		8400028D235C471C003050BF /* ChromelessWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400028C235C471C003050BF /* ChromelessWindow.swift */; };
+		84000292235C533E003050BF /* ListTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84000291235C533E003050BF /* ListTimelineViewController.swift */; };
+		84000294235C534D003050BF /* ListMembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84000293235C534D003050BF /* ListMembersViewController.swift */; };
+		84000296235C57F1003050BF /* MemberCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84000295235C57F1003050BF /* MemberCellView.swift */; };
+		84000299235C5FB4003050BF /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84000298235C5FB4003050BF /* TestData.swift */; };
+		8400029B235C61BD003050BF /* TwitterTestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400029A235C61BD003050BF /* TwitterTestApi.swift */; };
+		8400029D235C6395003050BF /* TestRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400029C235C6395003050BF /* TestRealm.swift */; };
+		8400029F235C673C003050BF /* ListTimelineViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400029E235C673C003050BF /* ListTimelineViewModelTests.swift */; };
+		840002A1235C674E003050BF /* PersonTimelineViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840002A0235C674E003050BF /* PersonTimelineViewModelTests.swift */; };
 		847442B52359A0B100496864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847442B42359A0B100496864 /* AppDelegate.swift */; };
 		847442B72359A0B100496864 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847442B62359A0B100496864 /* SceneDelegate.swift */; };
-		847442B92359A0B100496864 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847442B82359A0B100496864 /* ViewController.swift */; };
+		847442B92359A0B100496864 /* PersonTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847442B82359A0B100496864 /* PersonTimelineViewController.swift */; };
 		847442BC2359A0B100496864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847442BA2359A0B100496864 /* Main.storyboard */; };
 		847442BE2359A0B700496864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847442BD2359A0B700496864 /* Assets.xcassets */; };
 		847442C12359A0B700496864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847442BF2359A0B700496864 /* LaunchScreen.storyboard */; };
-		847442CC2359A0B700496864 /* TweetieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847442CB2359A0B700496864 /* TweetieTests.swift */; };
+		847442CC2359A0B700496864 /* ListMembersViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847442CB2359A0B700496864 /* ListMembersViewModelTests.swift */; };
 		847442EB2359A63D00496864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847442EA2359A63D00496864 /* AppDelegate.swift */; };
-		847442ED2359A63D00496864 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847442EC2359A63D00496864 /* ViewController.swift */; };
+		847442ED2359A63D00496864 /* PersonTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847442EC2359A63D00496864 /* PersonTimelineViewController.swift */; };
 		847442EF2359A64000496864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847442EE2359A64000496864 /* Assets.xcassets */; };
 		847442F22359A64000496864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847442F02359A64000496864 /* Main.storyboard */; };
 		847443192359A9B000496864 /* Reachability+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847443182359A9B000496864 /* Reachability+Rx.swift */; };
@@ -73,20 +88,35 @@
 		45D266FB2DFEA85CF98806BD /* Pods_TweetieAbstract_TweetieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TweetieAbstract_TweetieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E3D45B67D96F89CDA03F49 /* Pods_TweetieAbstract_MacTweetie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TweetieAbstract_MacTweetie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D42E272C781D79C0493783 /* Pods-TweetieAbstract-TweetieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweetieAbstract-TweetieTests.debug.xcconfig"; path = "Target Support Files/Pods-TweetieAbstract-TweetieTests/Pods-TweetieAbstract-TweetieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84000278235B7877003050BF /* TweetExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetExtensions.swift; sourceTree = "<group>"; };
+		8400027A235B7A8A003050BF /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		84000280235B7DB8003050BF /* ListTimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTimelineViewController.swift; sourceTree = "<group>"; };
+		84000282235B7DCD003050BF /* ListMembersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMembersViewController.swift; sourceTree = "<group>"; };
+		84000284235B8102003050BF /* TweetCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCellView.swift; sourceTree = "<group>"; };
+		84000286235C429B003050BF /* MemberCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCellView.swift; sourceTree = "<group>"; };
+		8400028C235C471C003050BF /* ChromelessWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromelessWindow.swift; sourceTree = "<group>"; };
+		84000291235C533E003050BF /* ListTimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTimelineViewController.swift; sourceTree = "<group>"; };
+		84000293235C534D003050BF /* ListMembersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMembersViewController.swift; sourceTree = "<group>"; };
+		84000295235C57F1003050BF /* MemberCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCellView.swift; sourceTree = "<group>"; };
+		84000298235C5FB4003050BF /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		8400029A235C61BD003050BF /* TwitterTestApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterTestApi.swift; sourceTree = "<group>"; };
+		8400029C235C6395003050BF /* TestRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRealm.swift; sourceTree = "<group>"; };
+		8400029E235C673C003050BF /* ListTimelineViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTimelineViewModelTests.swift; sourceTree = "<group>"; };
+		840002A0235C674E003050BF /* PersonTimelineViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTimelineViewModelTests.swift; sourceTree = "<group>"; };
 		847442B12359A0B100496864 /* Tweetie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweetie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847442B42359A0B100496864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		847442B62359A0B100496864 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		847442B82359A0B100496864 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		847442B82359A0B100496864 /* PersonTimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTimelineViewController.swift; sourceTree = "<group>"; };
 		847442BB2359A0B100496864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		847442BD2359A0B700496864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847442C02359A0B700496864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		847442C22359A0B700496864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847442C72359A0B700496864 /* TweetieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TweetieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		847442CB2359A0B700496864 /* TweetieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetieTests.swift; sourceTree = "<group>"; };
+		847442CB2359A0B700496864 /* ListMembersViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMembersViewModelTests.swift; sourceTree = "<group>"; };
 		847442CD2359A0B700496864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847442E82359A63D00496864 /* MacTweetie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacTweetie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847442EA2359A63D00496864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		847442EC2359A63D00496864 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		847442EC2359A63D00496864 /* PersonTimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTimelineViewController.swift; sourceTree = "<group>"; };
 		847442EE2359A64000496864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847442F12359A64000496864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		847442F32359A64000496864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -139,6 +169,120 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84000277235B7859003050BF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84000278235B7877003050BF /* TweetExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8400027C235B7D61003050BF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8400027F235B7D89003050BF /* Person Timeline */,
+				8400027E235B7D81003050BF /* List Timeline */,
+				8400027D235B7D71003050BF /* List Members */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8400027D235B7D71003050BF /* List Members */ = {
+			isa = PBXGroup;
+			children = (
+				84000282235B7DCD003050BF /* ListMembersViewController.swift */,
+				84000286235C429B003050BF /* MemberCellView.swift */,
+			);
+			path = "List Members";
+			sourceTree = "<group>";
+		};
+		8400027E235B7D81003050BF /* List Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				84000280235B7DB8003050BF /* ListTimelineViewController.swift */,
+				84000284235B8102003050BF /* TweetCellView.swift */,
+			);
+			path = "List Timeline";
+			sourceTree = "<group>";
+		};
+		8400027F235B7D89003050BF /* Person Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				847442B82359A0B100496864 /* PersonTimelineViewController.swift */,
+			);
+			path = "Person Timeline";
+			sourceTree = "<group>";
+		};
+		84000288235C46BF003050BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				847442EE2359A64000496864 /* Assets.xcassets */,
+				847442EA2359A63D00496864 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84000289235C46E1003050BF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				847442F02359A64000496864 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8400028A235C46EF003050BF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84000290235C530A003050BF /* Person Timeline */,
+				8400028F235C5301003050BF /* List Timeline */,
+				8400028E235C52F8003050BF /* List Members */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8400028B235C4704003050BF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8400028C235C471C003050BF /* ChromelessWindow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8400028E235C52F8003050BF /* List Members */ = {
+			isa = PBXGroup;
+			children = (
+				84000293235C534D003050BF /* ListMembersViewController.swift */,
+				84000295235C57F1003050BF /* MemberCellView.swift */,
+			);
+			path = "List Members";
+			sourceTree = "<group>";
+		};
+		8400028F235C5301003050BF /* List Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				84000291235C533E003050BF /* ListTimelineViewController.swift */,
+			);
+			path = "List Timeline";
+			sourceTree = "<group>";
+		};
+		84000290235C530A003050BF /* Person Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				847442EC2359A63D00496864 /* PersonTimelineViewController.swift */,
+			);
+			path = "Person Timeline";
+			sourceTree = "<group>";
+		};
+		84000297235C5FA5003050BF /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				84000298235C5FB4003050BF /* TestData.swift */,
+				8400029A235C61BD003050BF /* TwitterTestApi.swift */,
+				8400029C235C6395003050BF /* TestRealm.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		847442A82359A0B100496864 = {
 			isa = PBXGroup;
 			children = (
@@ -148,8 +292,8 @@
 				847443162359A8CF00496864 /* API */,
 				847443172359A91800496864 /* View Models */,
 				847442B32359A0B100496864 /* iOS Tweetie */,
-				847442CA2359A0B700496864 /* TweetieTests */,
 				847442E92359A63D00496864 /* Mac Tweetie */,
+				847442CA2359A0B700496864 /* TweetieTests */,
 				847442B22359A0B100496864 /* Products */,
 				DD8AEC25E3BC4D0AE0E24301 /* Pods */,
 				F1BD86C09B6755E82E4B192E /* Frameworks */,
@@ -169,13 +313,12 @@
 		847442B32359A0B100496864 /* iOS Tweetie */ = {
 			isa = PBXGroup;
 			children = (
-				847442B42359A0B100496864 /* AppDelegate.swift */,
-				847442B62359A0B100496864 /* SceneDelegate.swift */,
-				847442B82359A0B100496864 /* ViewController.swift */,
-				847442BA2359A0B100496864 /* Main.storyboard */,
-				847442BD2359A0B700496864 /* Assets.xcassets */,
-				847442BF2359A0B700496864 /* LaunchScreen.storyboard */,
+				8400027C235B7D61003050BF /* View Controllers */,
+				84000277235B7859003050BF /* Extensions */,
+				8474434B235B767C00496864 /* Storyboards */,
+				8474434A235B765200496864 /* Supporting Files */,
 				847442C22359A0B700496864 /* Info.plist */,
+				8400027A235B7A8A003050BF /* Navigator.swift */,
 			);
 			path = "iOS Tweetie";
 			sourceTree = "<group>";
@@ -183,8 +326,11 @@
 		847442CA2359A0B700496864 /* TweetieTests */ = {
 			isa = PBXGroup;
 			children = (
-				847442CB2359A0B700496864 /* TweetieTests.swift */,
+				84000297235C5FA5003050BF /* Mock */,
+				847442CB2359A0B700496864 /* ListMembersViewModelTests.swift */,
 				847442CD2359A0B700496864 /* Info.plist */,
+				8400029E235C673C003050BF /* ListTimelineViewModelTests.swift */,
+				840002A0235C674E003050BF /* PersonTimelineViewModelTests.swift */,
 			);
 			path = TweetieTests;
 			sourceTree = "<group>";
@@ -192,10 +338,10 @@
 		847442E92359A63D00496864 /* Mac Tweetie */ = {
 			isa = PBXGroup;
 			children = (
-				847442EA2359A63D00496864 /* AppDelegate.swift */,
-				847442EC2359A63D00496864 /* ViewController.swift */,
-				847442EE2359A64000496864 /* Assets.xcassets */,
-				847442F02359A64000496864 /* Main.storyboard */,
+				8400028B235C4704003050BF /* Extensions */,
+				8400028A235C46EF003050BF /* View Controllers */,
+				84000289235C46E1003050BF /* Storyboards */,
+				84000288235C46BF003050BF /* Supporting Files */,
 				847442F32359A64000496864 /* Info.plist */,
 				847442F42359A64000496864 /* MacTweetie.entitlements */,
 			);
@@ -259,6 +405,25 @@
 				8474433E235B3CEB00496864 /* TimelineFetcher.swift */,
 			);
 			path = Timeline;
+			sourceTree = "<group>";
+		};
+		8474434A235B765200496864 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				847442B42359A0B100496864 /* AppDelegate.swift */,
+				847442B62359A0B100496864 /* SceneDelegate.swift */,
+				847442BD2359A0B700496864 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8474434B235B767C00496864 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				847442BA2359A0B100496864 /* Main.storyboard */,
+				847442BF2359A0B700496864 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		DD8AEC25E3BC4D0AE0E24301 /* Pods */ = {
@@ -543,19 +708,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847442B92359A0B100496864 /* ViewController.swift in Sources */,
+				84000285235B8102003050BF /* TweetCellView.swift in Sources */,
+				84000279235B7877003050BF /* TweetExtensions.swift in Sources */,
+				8400027B235B7A8A003050BF /* Navigator.swift in Sources */,
+				847442B92359A0B100496864 /* PersonTimelineViewController.swift in Sources */,
 				84744338235B152700496864 /* TwitterApi.swift in Sources */,
 				84744345235B453B00496864 /* ListTimelineViewModel.swift in Sources */,
 				84744342235B452D00496864 /* PersonTimelineViewModel.swift in Sources */,
 				847442B52359A0B100496864 /* AppDelegate.swift in Sources */,
 				847443192359A9B000496864 /* Reachability+Rx.swift in Sources */,
+				84000281235B7DB8003050BF /* ListTimelineViewController.swift in Sources */,
 				8474432F235AFDAB00496864 /* Types.swift in Sources */,
 				847442B72359A0B100496864 /* SceneDelegate.swift in Sources */,
 				8474433C235B2A6F00496864 /* TimelineCursor.swift in Sources */,
 				84744322235A02DF00496864 /* ImageView+setImage.swift in Sources */,
 				8474432C235AFBDB00496864 /* DateFormatter+Twitter.swift in Sources */,
+				84000283235B7DCD003050BF /* ListMembersViewController.swift in Sources */,
 				8474431C235A008400496864 /* StoryboardExtensions.swift in Sources */,
 				8474431F235A01A700496864 /* TableViewExtensions.swift in Sources */,
+				84000287235C429B003050BF /* MemberCellView.swift in Sources */,
 				84744329235A04CB00496864 /* Tweet.swift in Sources */,
 				84744348235B455400496864 /* ListMembersViewModel.swift in Sources */,
 				84744332235AFE7500496864 /* User.swift in Sources */,
@@ -568,7 +739,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847442CC2359A0B700496864 /* TweetieTests.swift in Sources */,
+				8400029F235C673C003050BF /* ListTimelineViewModelTests.swift in Sources */,
+				8400029B235C61BD003050BF /* TwitterTestApi.swift in Sources */,
+				840002A1235C674E003050BF /* PersonTimelineViewModelTests.swift in Sources */,
+				847442CC2359A0B700496864 /* ListMembersViewModelTests.swift in Sources */,
+				84000299235C5FB4003050BF /* TestData.swift in Sources */,
+				8400029D235C6395003050BF /* TestRealm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,22 +752,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847442ED2359A63D00496864 /* ViewController.swift in Sources */,
+				847442ED2359A63D00496864 /* PersonTimelineViewController.swift in Sources */,
 				84744320235A01A700496864 /* TableViewExtensions.swift in Sources */,
 				8474431A2359A9B000496864 /* Reachability+Rx.swift in Sources */,
 				84744340235B3CEB00496864 /* TimelineFetcher.swift in Sources */,
 				8474432A235A04CB00496864 /* Tweet.swift in Sources */,
 				84744346235B453B00496864 /* ListTimelineViewModel.swift in Sources */,
+				8400028D235C471C003050BF /* ChromelessWindow.swift in Sources */,
 				84744339235B152700496864 /* TwitterApi.swift in Sources */,
+				84000294235C534D003050BF /* ListMembersViewController.swift in Sources */,
 				8474431D235A008400496864 /* StoryboardExtensions.swift in Sources */,
 				847442EB2359A63D00496864 /* AppDelegate.swift in Sources */,
 				84744336235B040600496864 /* TwitterAccount.swift in Sources */,
+				84000296235C57F1003050BF /* MemberCellView.swift in Sources */,
 				8474433D235B2A6F00496864 /* TimelineCursor.swift in Sources */,
 				84744349235B455400496864 /* ListMembersViewModel.swift in Sources */,
 				84744330235AFDAB00496864 /* Types.swift in Sources */,
 				8474432D235AFBDB00496864 /* DateFormatter+Twitter.swift in Sources */,
 				84744343235B452D00496864 /* PersonTimelineViewModel.swift in Sources */,
 				84744333235AFE7500496864 /* User.swift in Sources */,
+				84000292235C533E003050BF /* ListTimelineViewController.swift in Sources */,
 				84744323235A02DF00496864 /* ImageView+setImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

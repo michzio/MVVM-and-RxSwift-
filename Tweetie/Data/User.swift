@@ -13,7 +13,7 @@ import Unbox
 // dynamic enables objc dynamic dispatch instead of static or virtual switch dispatch
 // dynamic declaration modifier enables Key-Value Observing for NSObject subclasses
 
-class User: Object {
+class User: Object, Unboxable {
     
     // MARK: - Properties
     @objc dynamic var id: Int64 = 0
