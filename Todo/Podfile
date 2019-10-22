@@ -1,0 +1,24 @@
+use_frameworks!
+platform :ios, '13.0'
+
+target 'Todo' do
+  # core RxSwift 
+  pod 'RxSwift'
+  pod 'RxCocoa' 
+  pod 'RxDataSources' 
+
+  # Community projects 
+  pod 'Action' 
+  pod 'NSObject+Rx' 
+
+  # Realm database 
+  pod 'RealmSwift' 
+  pod 'RxRealm'
+
+  target 'TodoTests' do
+    inherit! :search_paths
+    # Pods for testing
+
+  end
+
+end

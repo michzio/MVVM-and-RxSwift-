@@ -937,7 +937,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HPA39TCVSP;
-				INFOPLIST_FILE = Tweetie/Info.plist;
+				INFOPLIST_FILE = "iOS Tweetie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -956,7 +956,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HPA39TCVSP;
-				INFOPLIST_FILE = Tweetie/Info.plist;
+				INFOPLIST_FILE = "iOS Tweetie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1024,7 +1024,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = HPA39TCVSP;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = MacTweetie/Info.plist;
+				INFOPLIST_FILE = "Mac Tweetie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -1047,7 +1047,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = HPA39TCVSP;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = MacTweetie/Info.plist;
+				INFOPLIST_FILE = "Mac Tweetie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",

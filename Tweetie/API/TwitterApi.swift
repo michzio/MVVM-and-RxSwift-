@@ -56,8 +56,8 @@ extension TwitterApi {
             
             guard !TwitterAccount.isLocal else {
                 
-                if let fileURL = Bundle.main.url(forResource: url.safeLocalRepresentation.lastPathComponent, withExtension: nil), let data = try? Data(contentsOf: fileURL), let json = try? JSONSerialization.jsonObject(with: data, options: []) as? T, let result = json {
-                    observer.onNext(result)
+                if let fileURL = Bundle.main.url(forResource: url.safeLocalRepresentation.lastPathComponent, withExtension: nil), let data = try? Data(contentsOf: fileURL), let json = try? JSONSerialization.jsonObject(with: data, options: []) as? T {
+                    observer.onNext(json)
                 }
                 observer.onCompleted()
                 return Disposables.create()
@@ -68,13 +68,12 @@ extension TwitterApi {
             request.responseJSON { response in
                 
                 guard response.error == nil, let data = response.data,
-                    let json = try? JSONSerialization.jsonObject(with: data, options: []) as? T,
-                    let result = json else {
+                    let json = try? JSONSerialization.jsonObject(with: data, options: []) as? T else {
                         observer.onError(Errors.requestFailed)
                         return
                 }
                 
-                observer.onNext(result)
+                observer.onNext(json)
                 observer.onCompleted()
             }
             
@@ -137,14 +136,15 @@ extension TwitterApi : TwitterApiType {
 
 extension String {
     var safeFileNameRepresentation: String {
-        return replacingOccurances(of: "?", with: "-")
-            .replacingOccurances(of: "&", with: "-")
-            .replacingOccurances(of: "=", with: "-")
+        
+        return replacingOccurrences(of: "?", with: "-")
+            .replacingOccurrences(of: "&", with: "-")
+            .replacingOccurrences(of: "=", with: "-")
     }
 }
 
 extension URL {
     var safeLocalRepresentation: URL {
-        return URL(string: absoluteString.safeFileNameRepresentation)
+        return URL(string: absoluteString.safeFileNameRepresentation)!
     }
 }

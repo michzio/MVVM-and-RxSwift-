@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "59B03E46-D195-462C-A580-FB2B060EB4B4"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4717CBB5-3C04-439A-8040-A054789895C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Todo/Scenes/SceneCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "transition(to:type:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4717CBB5-3C04-439A-8040-A054789895C1 - 9192bd88982e6626"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Todo.SceneCoordinator.transition(to: Todo.Scene, type: Todo.SceneTransitionType) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.CompletableTrait, Swift.Never&gt;"
+                  moduleName = "Todo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michzio/Click5Interactive/Samples/MVVM%20and%20RxSwift/Todo/Todo/Scenes/SceneCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "1535">
+               </Location>
+               <Location
+                  uuid = "4717CBB5-3C04-439A-8040-A054789895C1 - 4c232220cf31af2b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in Todo.SceneCoordinator.transition(to: Todo.Scene, type: Todo.SceneTransitionType) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.CompletableTrait, Swift.Never&gt;"
+                  moduleName = "Todo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michzio/Click5Interactive/Samples/MVVM%20and%20RxSwift/Todo/Todo/Scenes/SceneCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
