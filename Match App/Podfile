@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+
+target 'Match App' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Match App
+  pod 'Alamofire' 
+  pod 'AlamofireImage' 
+  pod 'AlamofireObjectMapper'
+  pod 'RealmSwift' 
+  pod 'MBProgressHUD' 
+  pod 'Swinject' 
+  pod 'SwinjectStoryboard'
+  pod 'RxSwift'
+  pod 'RxCocoa' 
+
+end

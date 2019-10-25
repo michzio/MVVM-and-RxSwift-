@@ -1,0 +1,38 @@
+platform :ios, '13.0'
+use_frameworks!
+
+target 'RxGithub' do  
+
+  # Pods for RxGithub
+
+  # Dependency Injection 
+  pod 'Swinject'
+  pod 'SwinjectStoryboard'
+
+  # Networking 
+  pod 'Alamofire'
+  pod 'Himotoki' 
+
+  # Rx 
+  pod 'RxSwift' 
+  pod 'RxCocoa' 
+  pod 'RxOptional' 
+
+  # Firebase 
+  pod 'Firebase/Core' 
+  pod 'Firebase/Database' 
+
+  # Animations 
+  pod 'Spring', :git => 'https://github.com/MussaCharles/Spring.git'
+
+  target 'RxGithubTests' do
+    inherit! :search_paths
+    # Pods for testing
+
+    pod 'Quick' 
+    pod 'Nimble' 
+    pod 'RxBlocking' 
+    
+  end
+
+end
